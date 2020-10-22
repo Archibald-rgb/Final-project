@@ -1,0 +1,53 @@
+.realization-ideas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fbfaf8;
+    padding: 83px 0 0 0;
+}
+
+.realization-ideas__title {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    margin-bottom: 24px;
+}
+
+.realization-ideas__text {
+    width: 40%;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin-bottom: 40px;
+}
+
+.realization-ideas__multibg {
+    width: 64%;
+    position: relative;
+}
+
+.photo-collage:first-child {
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    z-index: 1;
+}
+
+.photo-collage:nth-child(2) {
+    position: relative;
+    margin: 0 auto;
+    top: 4px;
+    z-index: 2;
+}
+
+.photo-collage:last-child {
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    z-index: 1;
+}

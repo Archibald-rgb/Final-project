@@ -1,0 +1,38 @@
+@import 'normalize';
+@import 'font';
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.padding-site {
+    padding: 0px 374px;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+@import 'header';
+@import 'services';
+@import 'realization-ideas';
+@import 'advertising';
+@import 'our_projects';
+@import 'video_presentation';
