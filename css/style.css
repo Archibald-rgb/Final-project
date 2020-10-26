@@ -774,7 +774,7 @@ input[type="search"]:hover {
   display: none;
   width: 64px;
   height: 9px;
-  background-color: #000000;
+  background-color: #ffffff;
   position: relative;
 }
 
@@ -782,7 +782,7 @@ input[type="search"]:hover {
   content: '';
   width: 64px;
   height: 9px;
-  background-color: black;
+  background-color: #ffffff;
   position: absolute;
   bottom: 18px;
 }
@@ -791,7 +791,7 @@ input[type="search"]:hover {
   content: '';
   width: 64px;
   height: 9px;
-  background-color: black;
+  background-color: #ffffff;
   position: absolute;
   top: 18px;
 }
@@ -919,28 +919,11 @@ input[type="search"]:hover {
 
 .realization-ideas__multibg {
   width: 64%;
-  position: relative;
-}
-
-.photo-collage:first-child {
-  position: absolute;
-  top: 85px;
-  left: 0px;
-  z-index: 1;
-}
-
-.photo-collage:nth-child(2) {
-  position: relative;
-  margin: 0 auto;
-  top: 4px;
-  z-index: 2;
-}
-
-.photo-collage:last-child {
-  position: absolute;
-  top: 85px;
-  right: 0px;
-  z-index: 1;
+  min-height: 482px;
+  background-image: url("../img/ideas_mountains.jpg"), url("../img/ideas_phone.jpg"), url("../img/ideas_pictures.jpg");
+  background-size: 62% 100%, 62% 80%, 62% 80%;
+  background-repeat: no-repeat;
+  background-position: bottom center, bottom left, bottom right;
 }
 
 .advertising {
@@ -1015,6 +998,7 @@ input[type="search"]:hover {
   flex-direction: column;
   align-items: center;
   background-color: #fff;
+  justify-content: center;
   margin-bottom: 80px;
 }
 
@@ -1104,15 +1088,17 @@ input[type="search"]:hover {
 }
 
 .projects {
+  width: 100%;
   margin: 0 0 40px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  justify-content: center;
 }
 
 .projects-item {
-  width: 370px;
+  width: 32%;
   background-color: #fbfaf8;
   margin: 0 15px 30px 0;
   position: relative;
@@ -1153,7 +1139,9 @@ input[type="search"]:hover {
 }
 
 .projects-item__img {
+  width: 100%;
   margin-bottom: 27px;
+  overflow: hidden;
 }
 
 .projects-item__title {

@@ -27,27 +27,37 @@
 }
 
 .realization-ideas__multibg {
+    // width: 64%;
+    // position: relative;
     width: 64%;
-    position: relative;
+    min-height: 482px;
+  
+    background-image: url('../img/ideas_mountains.jpg'),
+                    url('../img/ideas_phone.jpg'),
+                    url('../img/ideas_pictures.jpg');
+
+    background-size: 62% 100%, 62% 80%, 62% 80%;
+    background-repeat: no-repeat;
+    background-position: bottom center, bottom left, bottom right;
 }
 
-.photo-collage:first-child {
-    position: absolute;
-    top: 85px;
-    left: 0px;
-    z-index: 1;
-}
+// .photo-collage:first-child {
+//     position: absolute;
+//     top: 85px;
+//     left: 0px;
+//     z-index: 1;
+// }
 
-.photo-collage:nth-child(2) {
-    position: relative;
-    margin: 0 auto;
-    top: 4px;
-    z-index: 2;
-}
+// .photo-collage:nth-child(2) {
+//     position: relative;
+//     margin: 0 auto;
+//     top: 4px;
+//     z-index: 2;
+// }
 
-.photo-collage:last-child {
-    position: absolute;
-    top: 85px;
-    right: 0px;
-    z-index: 1;
-}
+// .photo-collage:last-child {
+//     position: absolute;
+//     top: 85px;
+//     right: 0px;
+//     z-index: 1;
+// }

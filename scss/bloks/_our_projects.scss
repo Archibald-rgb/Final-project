@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #fff;
+    justify-content: center;
     margin-bottom: 80px;
 
     &__title {
@@ -95,18 +96,21 @@
 }
 
 .projects {
+    width: 100%;
     margin: 0 0 40px;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
+    justify-content: center;
 }
 
 .projects-item {
-    width: 370px;
+    width: 32%;
     background-color: #fbfaf8;
     margin: 0 15px 30px 0;
     position: relative;
+    
 
     &::after {
         content: "";
@@ -146,7 +150,9 @@
     }
 
     &__img {
+        width: 100%;
         margin-bottom: 27px;
+        overflow: hidden;
     }
 
     &__title {
