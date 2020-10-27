@@ -577,6 +577,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   margin-left: 23px;
+  transition: color .2s;
 }
 
 .nav-link:hover {
