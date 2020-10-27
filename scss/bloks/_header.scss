@@ -35,10 +35,13 @@
     align-items: center;
     color: #ffffff;
     fill: #ffffff;
+    transition: ease-in .1s;
     
     &:hover {
         color: #c7b299;
         fill:  #c7b299;
+        transform: rotate(360deg);
+        
     }
 }    
 

@@ -13,14 +13,20 @@
         padding: 124px 0px;
         list-style-type: none;
     }
-
+    
     &__item img {
         width: 99%;
         height: 99%;
     }
 
+    &__item {
+        transition: transform .2s;
+    }
+
     &__item:hover {
         opacity: 0.6;
+        transform: scale(1.1);
+        
     }
 
     &__item:active{

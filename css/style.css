@@ -547,11 +547,13 @@ body {
   align-items: center;
   color: #ffffff;
   fill: #ffffff;
+  transition: ease-in .1s;
 }
 
 .logo:hover {
   color: #c7b299;
   fill: #c7b299;
+  transform: rotate(360deg);
 }
 
 .logo-text {
@@ -1727,8 +1729,13 @@ input[type="search"]:hover {
   height: 99%;
 }
 
+.partners__item {
+  transition: transform .2s;
+}
+
 .partners__item:hover {
   opacity: 0.6;
+  transform: scale(1.1);
 }
 
 .partners__item:active {
