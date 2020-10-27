@@ -291,6 +291,34 @@
    
 }
 
+@media(max-width: 576px) {
+    .footer {
+        padding: 20px 0 0 0;
+
+        &__list {
+            width: 88%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__about-us {
+            width: 100%;
+        }
+
+        &__recent-posts {
+            width: 100%;
+        }
+
+        &__twitts {
+            width: 100%;
+        }
+
+        &__widget {
+            width: 60%;
+        }
+    }
+}
+
 
 
     

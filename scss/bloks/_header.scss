@@ -15,7 +15,9 @@
 }
 .header__inner {
     display: flex;
-    align-items: center;   
+    align-items: center; 
+    justify-content: center;
+    width: 100%;  
 }
 
 .logo-link {
@@ -50,9 +52,10 @@
 }
 
 .nav {
-     margin-left: 219px;
+     margin-left: 18%;
      display: flex;
      justify-content: space-between;
+     flex-wrap: wrap;
 
         
 
@@ -301,6 +304,12 @@ input[type="search"] {
         height: 140px;
     }
 
+    .header__inner {
+        justify-content: space-between;
+        margin-bottom: 285px;
+        width: 130%;
+    }
+
     .burger {
         display: block;
     }
@@ -320,14 +329,7 @@ input[type="search"] {
     .header__slider {
         display: none;
     }
-
-    .header__inner {
-        justify-content: space-between;
-        margin-bottom: 285px;
-        width: 100%;
-    }
-
-    
+   
 }
     
       

@@ -4,7 +4,6 @@
     align-items: center;
     background-image: url('../img/partners_bg.jpg');
     background-color:#404144;
-    height: 489px;
 
     &__list {
         width: 58%;
@@ -13,6 +12,11 @@
         align-items: center;
         padding: 124px 0px;
         list-style-type: none;
+    }
+
+    &__item img {
+        width: 99%;
+        height: 99%;
     }
 
     &__item:hover {
@@ -26,5 +30,24 @@
     &__item-link:focus {
         outline: none;
         opacity: 0.3;
+    }
+}
+
+@media (max-width: 576px) {
+    .partners {
+
+        height: 100%;
+
+        &__list {
+            width: 96%;
+            padding: 20px 0;
+        }
+
+        &__item-link {
+            & img {
+                width: 90%;
+                height: 90%;
+            }
+        }
     }
 }

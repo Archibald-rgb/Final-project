@@ -64,3 +64,25 @@
         margin-top: 30px;
     }
 }
+
+@media (max-width: 576px) {
+    .services {
+        padding: 10px 10px 0;
+
+        &-items {
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-between;
+        }
+        &-item {
+            width: 45%;
+            margin: 0;
+
+            &::after {
+                margin: 10px 0 10px;
+            } 
+
+        }
+    }
+    
+}

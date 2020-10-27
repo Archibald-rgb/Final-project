@@ -187,3 +187,28 @@
     padding-top: 7px;
     }   
 }
+
+
+@media (max-width: 576px) {
+    .posts {
+        margin: 0 0 10px;
+
+        &__text {
+            width: 98%;
+        }
+
+        &__list {
+            width: 100%;flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+        }
+
+        &__item {
+            width: 60%;
+        }
+
+        &__btn-pad {
+            display: none;
+        }
+    }
+}
